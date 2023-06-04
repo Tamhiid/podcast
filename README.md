@@ -5,7 +5,11 @@ Pody is a neumorphic podcast app built with flutter and firebase.
 
 Main packages used:
  ```dart
- firebase_storage - storage and fetching of the podcast files
+ - flutter sdk must be the same as the project 
+ - flutter pub upgrade 
+ - flutter pub get 
+ - run project with real device to make sure it is working as expected
+
  cloud_firestore - database for podcast information
  flutter_riverpod - state management
  audioplayers - playing audio podcast
